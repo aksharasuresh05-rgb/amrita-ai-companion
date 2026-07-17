@@ -1,0 +1,15 @@
+{
+  "Mathematics": [
+    "Calculus",
+    "Matrices",
+    "Differential Equations"
+  ],
+  "Physics": [
+    "Mechanics",
+    "Electromagnetism"
+  ],
+  "Programming": [
+    "Python Basics",
+    "C Programming"
+  ]
+}

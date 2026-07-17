@@ -1,0 +1,13 @@
+.nitrostudio/
+# Dependencies
+node_modules/
+
+# Next.js build files
+.next/
+
+# Build output
+dist/
+
+# Widget dependencies
+src/widgets/node_modules/
+src/widgets/.next/

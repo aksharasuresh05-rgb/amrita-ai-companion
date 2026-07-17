@@ -1,0 +1,4 @@
+mcp
+wikipedia
+requests
+python-dotenv
