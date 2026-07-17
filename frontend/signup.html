@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | Amrita First-Year Companion</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="signup-container">
+
+    <!-- LEFT SIDE -->
+
+    <div class="signup-left">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h1>Amrita Companion</h1>
+
+        </div>
+
+        <h2>Create Your Account 🚀</h2>
+
+        <p>
+
+            Join the AI-powered learning platform and start learning smarter.
+
+        </p>
+
+        <form action="#" method="post">
+
+            <!-- Full Name -->
+
+            <div class="input-box">
+
+                <label>Full Name</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your full name"
+                    required>
+
+            </div>
+
+            <!-- Email -->
+
+            <div class="input-box">
+
+                <label>College Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your college email"
+                    required>
+
+            </div>
+
+            <!-- Student ID -->
+
+            <div class="input-box">
+
+                <label>Student ID</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your student ID">
+
+            </div>
+
+            <!-- Department -->
+
+            <div class="input-box">
+
+                <label>Department</label>
+
+                <select required>
+
+                    <option value="">Select Department</option>
+
+                    <option>Robotics & AI</option>
+
+                    <option>Computer Science</option>
+
+                    <option>Mechanical Engineering</option>
+
+                    <option>Electrical Engineering</option>
+
+                    <option>Electronics & Communication</option>
+
+                    <option>Civil Engineering</option>
+
+                </select>
+
+            </div>
+
+            <!-- Password -->
+
+            <div class="input-box">
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                    required>
+
+            </div>
+
+            <!-- Confirm Password -->
+
+            <div class="input-box">
+
+                <label>Confirm Password</label>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm your password"
+                    required>
+
+            </div>
+
+            <!-- Show Password -->
+
+            <div class="show-password">
+
+                <label>
+
+                    <input
+                        type="checkbox"
+                        onclick="togglePassword()">
+
+                    Show Passwords
+
+                </label>
+
+            </div>
+
+            <!-- Terms -->
+
+            <div class="terms">
+
+                <label>
+
+                    <input type="checkbox" required>
+
+                    I agree to the Terms & Conditions and Privacy Policy.
+
+                </label>
+
+            </div>
+
+            <!-- Sign Up -->
+
+            <button type="submit" class="signup-btn">
+
+                <i class="fa-solid fa-user-plus"></i>
+
+                Create Account
+
+            </button>
+
+        </form>
+
+        <div class="divider">
+
+            <span>OR</span>
+
+        </div>
+
+        <!-- Google -->
+
+        <button class="google-btn">
+
+            <i class="fa-brands fa-google"></i>
+
+            Continue with Google
+
+        </button>
+
+        <p class="login-link">
+
+            Already have an account?
+
+            <a href="login.html">
+
+                Login
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+
+    <div class="signup-right">
+
+        <img src="assets/images/signup.png"
+             alt="Student Illustration">
+
+        <h2>Start Your Learning Journey</h2>
+
+        <p>
+
+            ✔ AI Tutor<br>
+            ✔ Smart Search<br>
+            ✔ Quiz Generator<br>
+            ✔ Study Planner<br>
+            ✔ Notes Summarizer<br>
+            ✔ Progress Tracking
+
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+
+function togglePassword() {
+
+    var password = document.getElementById("password");
+    var confirmPassword = document.getElementById("confirmPassword");
+
+    if (password.type === "password") {
+
+        password.type = "text";
+        confirmPassword.type = "text";
+
+    } else {
+
+        password.type = "password";
+        confirmPassword.type = "password";
+
+    }
+
+}
+
+</script>
+
+</body>
+
+</html>

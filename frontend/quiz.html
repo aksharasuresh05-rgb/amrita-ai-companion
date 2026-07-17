@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Generator | Amrita First-Year Companion</title>
+
+    <link rel="stylesheet" href="css/quiz.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<h2>Amrita Companion</h2>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="chat.html">AI Chat</a></li>
+
+<li><a href="search.html">Resources</a></li>
+
+<li><a href="planner.html">Planner</a></li>
+
+<li><a href="profile.html">Profile</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="quiz-hero">
+
+<h1>📝 AI Quiz Generator</h1>
+
+<p>
+
+Generate personalized quizzes using AI and test your understanding instantly.
+
+</p>
+
+</section>
+
+<!-- ================= QUIZ SETTINGS ================= -->
+
+<section class="quiz-settings">
+
+<h2>Create Your Quiz</h2>
+
+<form>
+
+<label>Subject</label>
+
+<select>
+
+<option>Robotics</option>
+
+<option>Physics</option>
+
+<option>Mathematics</option>
+
+<option>Programming</option>
+
+<option>Chemistry</option>
+
+</select>
+
+<label>Difficulty</label>
+
+<select>
+
+<option>Easy</option>
+
+<option>Medium</option>
+
+<option>Hard</option>
+
+</select>
+
+<label>Number of Questions</label>
+
+<select>
+
+<option>5</option>
+
+<option>10</option>
+
+<option>15</option>
+
+<option>20</option>
+
+</select>
+
+<button type="button">
+
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+
+Generate Quiz
+
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= PROGRESS ================= -->
+
+<section class="progress-section">
+
+<h2>Quiz Progress</h2>
+
+<p>Question 1 of 10</p>
+
+<progress value="10" max="100"></progress>
+
+</section>
+
+<!-- ================= QUESTION ================= -->
+
+<section class="question-card">
+
+<h2>
+
+Question 1
+
+</h2>
+
+<p>
+
+Which sensor is commonly used in a line-following robot?
+
+</p>
+
+<form>
+
+<label>
+
+<input type="radio" name="q1">
+
+Ultrasonic Sensor
+
+</label>
+
+<label>
+
+<input type="radio" name="q1">
+
+IR Sensor
+
+</label>
+
+<label>
+
+<input type="radio" name="q1">
+
+GPS Module
+
+</label>
+
+<label>
+
+<input type="radio" name="q1">
+
+Bluetooth Module
+
+</label>
+
+</form>
+
+</section>
+
+<!-- ================= ACTION BUTTONS ================= -->
+
+<section class="quiz-buttons">
+
+<button>
+
+<i class="fa-solid fa-arrow-left"></i>
+
+Previous
+
+</button>
+
+<button>
+
+Submit Answer
+
+</button>
+
+<button>
+
+Next
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</section>
+
+<!-- ================= AI HELP ================= -->
+
+<section class="ai-help">
+
+<h2>🤖 Need Help?</h2>
+
+<div class="help-buttons">
+
+<button>Explain Answer</button>
+
+<button>Show Hint</button>
+
+<button>Generate Similar Question</button>
+
+<button>Ask AI Tutor</button>
+
+</div>
+
+</section>
+
+<!-- ================= SCORE ================= -->
+
+<section class="score-card">
+
+<h2>🏆 Latest Score</h2>
+
+<h1>8 / 10</h1>
+
+<p>Excellent Performance!</p>
+
+<button>Review Answers</button>
+
+<button>Try Again</button>
+
+</section>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+
+<section class="achievements">
+
+<h2>🎖 Achievements</h2>
+
+<div class="achievement-grid">
+
+<div>
+
+🏅
+
+<p>First Quiz Completed</p>
+
+</div>
+
+<div>
+
+🔥
+
+<p>7-Day Study Streak</p>
+
+</div>
+
+<div>
+
+📚
+
+<p>50 Questions Solved</p>
+
+</div>
+
+<div>
+
+⭐
+
+<p>Quiz Master</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LEADERBOARD ================= -->
+
+<section class="leaderboard">
+
+<h2>🏆 Weekly Leaderboard</h2>
+
+<table>
+
+<tr>
+
+<th>Rank</th>
+
+<th>Student</th>
+
+<th>Score</th>
+
+</tr>
+
+<tr>
+
+<td>1</td>
+
+<td>Alex</td>
+
+<td>98%</td>
+
+</tr>
+
+<tr>
+
+<td>2</td>
+
+<td>Priya</td>
+
+<td>95%</td>
+
+</tr>
+
+<tr>
+
+<td>3</td>
+
+<td>You</td>
+
+<td>92%</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<!-- ================= RECOMMENDATIONS ================= -->
+
+<section class="recommendation">
+
+<h2>📚 AI Recommendations</h2>
+
+<ul>
+
+<li>Revise Newton's Laws</li>
+
+<li>Practice 10 Robotics MCQs</li>
+
+<li>Read Introduction to Sensors</li>
+
+<li>Attempt Advanced Programming Quiz</li>
+
+</ul>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Amrita First-Year Companion
+
+Powered by NitroStack • MCP • AI
+
+</p>
+
+</footer>
+
+<script src="js/quiz.js"></script>
+
+</body>
+
+</html>

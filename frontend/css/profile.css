@@ -1,0 +1,369 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ==========================
+   LINKS
+========================== */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+header{
+
+    width:100%;
+    background:#1e3a8a;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+.logo i{
+
+    font-size:28px;
+    color:white;
+
+}
+
+.logo h2{
+
+    color:white;
+    font-weight:600;
+
+}
+
+nav ul{
+
+    display:flex;
+    gap:25px;
+
+}
+
+nav ul li a{
+
+    color:white;
+    font-weight:500;
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#38bdf8;
+
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.planner-hero{
+
+    text-align:center;
+
+    padding:70px 10%;
+
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+
+    color:white;
+
+}
+
+.planner-hero h1{
+
+    font-size:42px;
+    margin-bottom:20px;
+
+}
+
+.planner-hero p{
+
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* ==========================
+   COMMON SECTION
+========================== */
+
+section{
+
+    padding:60px 8%;
+
+}
+
+section h2{
+
+    color:#1e3a8a;
+
+    margin-bottom:25px;
+
+    font-size:30px;
+
+}
+/* ==========================
+   TODAY'S PLAN
+========================== */
+
+.today-plan{
+
+    background:white;
+
+    margin:40px 8%;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.today-plan ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.today-plan li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px;
+
+    background:#f8fafc;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-size:17px;
+
+}
+
+.today-plan li:hover{
+
+    background:#e0f2fe;
+
+    transform:translateX(8px);
+
+}
+
+.today-plan input{
+
+    width:20px;
+
+    height:20px;
+
+    cursor:pointer;
+
+}
+
+
+/* ==========================
+   ADD TASK
+========================== */
+
+.add-task{
+
+    background:white;
+
+    margin:40px 8%;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.add-task form{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.add-task input[type="text"]{
+
+    flex:1;
+
+    min-width:250px;
+
+    padding:14px 18px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.add-task input[type="date"]{
+
+    padding:14px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.add-task button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 25px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.add-task button:hover{
+
+    background:#1e40af;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ==========================
+   WEEKLY PLAN
+========================== */
+
+.weekly-plan{
+
+    background:white;
+
+    margin:40px 8%;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.weekly-plan table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+.weekly-plan th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:16px;
+
+    font-size:17px;
+
+}
+
+.weekly-plan td{
+
+    padding:16px;
+
+    border-bottom:1px solid #e5e7eb;
+
+    text-align:center;
+
+}
+
+.weekly-plan tr:nth-child(even){
+
+    background:#f8fafc;
+
+}
+
+.weekly-plan tr:hover{
+
+    background:#dbeafe;
+
+    transition:.3s;
+
+}

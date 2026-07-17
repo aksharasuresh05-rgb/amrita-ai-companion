@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Amrita First-Year Companion</title>
+
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <!-- Left Section -->
+
+    <div class="login-left">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <h1>Amrita Companion</h1>
+
+        </div>
+
+        <h2>Welcome Back 👋</h2>
+
+        <p>
+
+            Sign in to continue your AI-powered learning journey.
+
+        </p>
+
+        <form action="#" method="post">
+
+            <!-- Email -->
+
+            <div class="input-box">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your college email"
+                    required>
+
+            </div>
+
+            <!-- Password -->
+
+            <div class="input-box">
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required>
+
+            </div>
+
+            <!-- Remember -->
+
+            <div class="options">
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Remember Me
+
+                </label>
+
+                <a href="forgot-password.html">
+
+                    Forgot Password?
+
+                </a>
+
+            </div>
+
+            <!-- Show Password -->
+
+            <div class="show-password">
+
+                <label>
+
+                    <input
+                        type="checkbox"
+                        onclick="togglePassword()">
+
+                    Show Password
+
+                </label>
+
+            </div>
+
+            <!-- Login -->
+
+            <button type="submit" class="login-btn">
+
+                <i class="fa-solid fa-right-to-bracket"></i>
+
+                Login
+
+            </button>
+
+        </form>
+
+        <div class="divider">
+
+            <span>OR</span>
+
+        </div>
+
+        <!-- Google -->
+
+        <button class="google-btn">
+
+            <i class="fa-brands fa-google"></i>
+
+            Continue with Google
+
+        </button>
+
+        <!-- Guest -->
+
+        <button class="guest-btn">
+
+            <i class="fa-solid fa-user"></i>
+
+            Continue as Guest
+
+        </button>
+
+        <p class="signup-link">
+
+            Don't have an account?
+
+            <a href="signup.html">
+
+                Sign Up
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <!-- Right Section -->
+
+    <div class="login-right">
+
+        <img src="assets/images/login.png"
+             alt="Student Illustration">
+
+        <h2>Learn Smarter with AI</h2>
+
+        <p>
+
+            Chat with AI, generate quizzes,
+            summarize notes,
+            search resources,
+            and plan your studies
+            all in one place.
+
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+
+function togglePassword() {
+
+    var x = document.getElementById("password");
+
+    if (x.type === "password") {
+
+        x.type = "text";
+
+    } else {
+
+        x.type = "password";
+
+    }
+
+}
+
+</script>
+
+</body>
+
+</html>
