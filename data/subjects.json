@@ -1,0 +1,22 @@
+{
+  "subjects": [
+    {
+      "subject_code": "EST100",
+      "subject_name": "Engineering Mechanics",
+      "semester": 1,
+      "credits": 4,
+      "modules": [
+        {
+          "module_number": 1,
+          "title": "Statics of Particles",
+          "topics": ["Forces in a Plane", "Resultant of Multiple Forces", "Equilibrium Vectors"]
+        },
+        {
+          "module_number": 2,
+          "title": "Rigid Bodies",
+          "topics": ["Moment of a Force", "Couples", "Support Reactions"]
+        }
+      ]
+    }
+  ]
+}

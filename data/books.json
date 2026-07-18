@@ -1,0 +1,38 @@
+{
+  "resources": [
+    {
+      "subject_code": "EST100",
+      "recommended_books": [
+        {
+          "title": "Vector Mechanics for Engineers",
+          "author": "Beer and Johnston"
+        },
+        {
+          "title": "Engineering Mechanics",
+          "author": "Bhavikatti"
+        }
+      ],
+      "youtube_links": [
+        {
+          "topic": "Module 1 - Statics",
+          "url": "https://youtu.be/xxpc-HPKN28?si=QHPsBljwrBNXIK9l"
+        }
+      ]
+    },
+    {
+      "subject_code": "MAT101",
+      "recommended_books": [
+        {
+          "title": "Higher Engineering Mathematics",
+          "author": "B.S. Grewal"
+        }
+      ],
+      "youtube_links": [
+        {
+          "topic": "Module 1 - Linear Algebra",
+          "url": "https://youtu.be/JnTa9XtvmfI?si=8xdO3jSubmRZ0NBz"
+        }
+      ]
+    }
+  ]
+}
